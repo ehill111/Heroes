@@ -28,7 +28,9 @@ namespace SuperHeroProject.Controllers
         // GET: HeroController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            Hero HeroToView = db.Hero.Where(s => s.Id == id).SingleOrDefault();
+            
+            return View(HeroToView);
         }
 
         // GET: HeroController/Create
@@ -37,6 +39,8 @@ namespace SuperHeroProject.Controllers
             Hero hero = new Hero();
             return View(hero);
         }
+
+       
 
         // POST: HeroController/Create
         [HttpPost]
@@ -64,7 +68,7 @@ namespace SuperHeroProject.Controllers
         // POST: HeroController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Hero HeroToEdit)
         {
             try
             {

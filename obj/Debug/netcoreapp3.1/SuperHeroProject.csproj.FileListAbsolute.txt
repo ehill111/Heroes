@@ -160,3 +160,5 @@ C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeC
 C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\SuperHeroProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\SuperHeroProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\Razor\Views\Hero\Index.cshtml.g.cs
+C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\Razor\Views\Hero\Details.cshtml.g.cs
+C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\Razor\Views\Hero\Edit.cshtml.g.cs
