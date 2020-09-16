@@ -159,3 +159,4 @@ C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeC
 C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\SuperHeroProject.csproj.CoreCompileInputs.cache
 C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\SuperHeroProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\SuperHeroProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ehill\Documents\Eric's Present Files\SoftwareAndWebDevelopment\devCodeCamp\GradedAssignments\SuperHeroes\SuperHeroProject\obj\Debug\netcoreapp3.1\Razor\Views\Hero\Index.cshtml.g.cs

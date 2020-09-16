@@ -9,7 +9,7 @@ namespace SuperHeroProject.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
-        public DbSet<Heroes> Hero { get; set; }
+        public DbSet<Hero> Hero { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
