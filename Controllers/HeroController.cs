@@ -39,9 +39,7 @@ namespace SuperHeroProject.Controllers
             Hero hero = new Hero();
             return View(hero);
         }
-
-       
-
+  
         // POST: HeroController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -58,11 +56,15 @@ namespace SuperHeroProject.Controllers
                 return View();
             }
         }
-
+        
         // GET: HeroController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            {//Update
+             // Find Hero in db.
+               Hero HeroToEdit = db.Hero.Where(h => h.Id == id).Single();
+               return View();
+            }
         }
 
         // POST: HeroController/Edit/5
@@ -70,8 +72,17 @@ namespace SuperHeroProject.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, Hero HeroToEdit)
         {
-            try
+            try//???
             {
+                var heroEdited = db.Hero.Where(h => h.Id == id).Single();
+                heroEdited.heroName = HeroToEdit.heroName;
+                heroEdited.aliasFirstName = HeroToEdit.aliasFirstName;
+                heroEdited.aliasLastname = HeroToEdit.aliasLastname;
+                heroEdited.primaryAbility = HeroToEdit.primaryAbility;
+                heroEdited.secondaryAbility = HeroToEdit.secondaryAbility;
+                heroEdited.catchPhrase = HeroToEdit.catchPhrase; 
+                           
+                db.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             catch
