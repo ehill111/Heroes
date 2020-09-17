@@ -83,7 +83,17 @@ namespace SuperHeroProject.Controllers
         // GET: HeroController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            var deleteHero =
+                from h in db.Hero
+                where h.Id == id//???? This can't be complete. I think id should be linked to Hero, but that doesn't work.
+                select h;
+
+            foreach (var h in deleteHero)
+            {
+                db.Hero.Remove(h);
+                db.SaveChanges();
+            }
+                return View();
         }
 
         // POST: HeroController/Delete/5
